@@ -7,9 +7,9 @@ const path = "./data.json";
 const git = simpleGit();
 
 // Set your custom time frame
-const START_DATE = "2025-04-01";  // Change this to your desired start date
-const END_DATE = "2025-06-09";    // Change this to your desired end date
-const NUM_COMMITS = 150;           // Change this to the number of commits you want
+const START_DATE = "2025-06-15";  // Change this to your desired start date
+const END_DATE = "2025-06-17";    // Change this to your desired end date
+const NUM_COMMITS = 15;           // Change this to the number of commits you want
 
 const makeCommits = (n, startDate, endDate) => {
   if (n === 0) return git.push();
